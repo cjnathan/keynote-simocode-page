@@ -1,0 +1,593 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>PowerCube Motor Management for SIMOCODE and SIRIUS</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/night.css">
+		<link rel="stylesheet" href="css/bootstrap-grid.min.css">
+		<link rel="stylesheet" href="css/custom.css">
+		<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> -->
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+
+	<body>
+		<img id="bg-logo" src="images/HDS White Watermark Small.png" alt="HDS">
+
+		<div class="reveal">
+			<div class="slides">
+
+				<section>
+					<div class="row">
+						<div class="col-12">
+							<!-- <img data-src="/images/logo-pcube.png"> -->
+							<div class="row">
+									<div class="col-12">
+										<img data-src="/images/Logo 1 Grey.png">
+									</div>
+								</div>
+						</div>
+						<div class="col-12">
+							<!-- <h3 id="typed1" style="display:inline-block"></h3><br/>
+							<h2 id="typed11" style="display:inline-block"></h2><br/> -->
+							<h3>SIMOCODE Pro &amp; SIRIUS</h3>
+							<h4><span class="fragment fade-in">Industry 4.0 Motor Management</span></h4>
+						</div>
+					</div>
+				</section>
+
+				<section data-transition="convex">
+					<section>
+						<h3><span>Compatible Devices</span></h3><br/>
+						<div class="row">
+							<div class="col-6 fragment fade-in">
+								<img data-src="/images/simocode-3d.png" style="width: 30%">
+								<h6>SIMOCODE Pro</h6>
+								<h7>3UF</h7>
+							</div>
+							<div class="col-6 fragment fade-in">
+								<img data-src="/images/soft-starter-3d.png" style="width: 30%">
+								<h6>SIRIUS Soft Starter</h6>
+								<h7>3RW52</h7><br/>
+								<h7>3RW55</h7>
+							</div>
+						</div>
+					</section>
+					<section>
+						<h3><span>Compatible Protocols</span></h3><br/>
+						<div class="row">
+							<div class="col-3 fragment fade-in">
+								<img data-src="/images/profibus-logo.png" style="width: 80%">
+								<h6>PROFIBUS</h6>
+							</div>
+							<div class="col-3 fragment fade-in">
+								<img data-src="/images/profinet-logo.png" style="width: 80%">
+								<h6>PROFINET</h6>
+							</div>
+							<div class="col-3 fragment fade-in">
+								<img data-src="/images/modbus-logo.png" style="width: 80%">
+								<h6>MODBUS TCP</h6>
+							</div>
+							<div class="col-3 fragment fade-in">
+									<img data-src="/images/opcua-invert.png" style="width: 80%">
+									<h6>OPC-UA</h6>
+								</div>
+						</div>
+					</section>
+				</section>
+
+				<section data-transition="convex">
+					<section>
+						<h3>How To Enable</h3>
+						<h3 class="fragment fade-in">Industry 4.0</h3>
+						<h3 class="fragment fade-in">Motor Management</h3>
+						<h3 class="fragment fade-in">In Your Factory</h3>
+					</section>
+					<section>
+						<div class="row"><h5>Use SIEMENS IOT-2040</h5></div>
+						<div class="row">
+							<div class="col-4">
+								<img center data-src="/images/iot2040.png" style="width: 60%">
+							</div>
+							<div class="col-8 fragment fade-in left" style="font-size: 12pt">
+								<div class="row">
+										<div class="col-4 fragment fade-in" style="padding:10px">
+											<img data-src="/images/repeat.png" style="width: 27%"><br/>
+											Periodic Data Acquisition from SIMOCODE and SIRIUS
+										</div>
+										<div class="col-4 fragment fade-in" style="padding:10px">
+											<img data-src="/images/profinet-logo.png" style="width: 55%"><br/>
+											Support with PROFINET, S7-Comm, MODBUS TCP, OPC-UA
+										</div>
+										<div class="col-4 fragment fade-in" style="padding:10px">
+											<img data-src="/images/https.png" style="width: 27%"><br/>
+											Support Standard Web Protocol MQTT, HTTP-API
+										</div>
+										<div class="col-4 fragment fade-in" style="padding:10px">
+											<img data-src="/images/road-sign.png" style="width: 27%"><br/>
+											Can Handle 20 Units SIMOCODE or SIRIUS
+										</div>
+										<div class="col-4 fragment fade-in" style="padding:10px">
+											<img data-src="/images/stopwatch.png" style="width: 27%"><br/>
+											Less Engineering Time
+										</div>
+										<div class="col-4 fragment fade-in" style="padding:10px">
+											<img data-src="/images/server.png" style="width: 27%"><br/>
+											Send Payload Data to Local Server or Cloud
+										</div>
+								</div>
+							</div>
+						</div>
+					</section>
+					<section>
+							<h3>Steps To Have Industry 4.0 Motor Management</h3><br/><br/>
+
+							<div class="row">
+									<div class="col-12 fragment fade-in left" style="font-size: 12pt">
+										<div class="row">
+											<div class="col-3 fragment fade-in">
+												<img data-src="/images/number1.png" style="width: 27%"><br/>
+												Connect <br/>SIMOCODE and SIRIUS <br/>to Local Network
+											</div>
+											<div class="col-3 fragment fade-in">
+												<img data-src="/images/number2.png" style="width: 27%"><br/>
+												Connect IOT2040 in <br/>same network with <br/>SIMOCODE and SIRIUS
+											</div>
+											<div class="col-3 fragment fade-in">
+												<img data-src="/images/number3.png" style="width: 27%"><br/>
+												Send Motor Data to <br/>Local Server or Cloud
+											</div>
+											<div class="col-3 fragment fade-in">
+												<img data-src="/images/checked.png" style="width: 27%"><br/>
+												Monitor, Analyze <br/>Create Report, Control<br/> Motor from <br/>Unified Single Dashboard
+											</div>
+										</div>
+									</div>
+							</div>
+					</section>
+				</section>
+
+				<section data-transition="convex">
+					<section>
+						<h3>Manage 12 Motor is Visible</h3>
+					</section>
+					<section>
+						<h3>Manage 1000 Motors</h3>
+						<h3>is a CHALLENGE</h3>
+						<div id="map"></div>
+					</section>
+				</section>
+
+				<section data-transition="convex">
+					<section>
+						<h3>Adopting This Solution</h3>
+						<h3>Will Give Your Factory</h3>
+					</section>
+					<section>
+						<div class="row">
+							<div class="col-3" style="text-align:left">
+								<h5>Single<br/>Interface<br/>For All<br/>SIMOCODE<br/>and<br/>SIRIUS</h5>
+							</div>
+							<div class="col-9">
+								<img data-src="/images/ssDashboard.png"><br/>
+							</div>
+						</div>
+					</section>
+					<section>
+						<div class="row">
+							<div class="col-9">
+								<img data-src="/images/ssDashboard.png"><br/>
+							</div>
+							<div class="col-3" style="text-align:left">
+								<h5>Realtime<br/>Alarm<br/>Notification<br/></h5>
+							</div>
+						</div>
+					</section>
+					<section>
+						<div class="row">
+							<div class="col-9">
+								<img data-src="/images/ssDashboard.png" ><br/>
+							</div>
+							<div class="col-3" style="text-align:left">
+								<h5>...<br/>And<br/>Telegram Bot<br/>Will Send<br/>Your Team<br/>Message</h5>
+							</div>
+						</div>
+					</section>
+					<section>
+						<div class="row">
+							<div class="col-3" style="text-align:left">
+								<h5>Remote<br/>Control<br/>also<br/>Possible</h5>
+							</div>
+							<div class="col-9">
+								<img data-src="/images/ssDashboard.png" ><br/>
+							</div>
+						</div>
+					</section>
+					<section>
+						<div class="row">
+							<div class="col-3" style="text-align:left; font-size:32px">
+								<h5>Maintenance<br/>Alert before<br/>Motor Reach<br/>Running Hour<br/>Limit</h5>
+							</div>
+							<div class="col-9">
+								<img data-src="/images/ssDashboard.png" ><br/>
+							</div>
+						</div>
+					</section>
+					<section>
+						<div class="row">
+							<div class="col-3" style="text-align:left">
+								<h5>One<br/>Button<br/>To have<br/>Weekly<br/>Report</h5>
+							</div>
+							<div class="col-9">
+								<img data-src="/images/ssDashboard.png" ><br/>
+							</div>
+						</div>
+					</section>
+					<section>
+						<div class="row">
+							<div class="col-3" style="text-align:left; font-size:32px">
+								<h5>Compare<br/>Motor Configuration<br/>In One Screen</h5>
+							</div>
+							<div class="col-9">
+								<img data-src="/images/ssDashboard.png" ><br/>
+							</div>
+						</div>
+					</section>
+					<section>
+						<h3>DEPLYOMENT AT YOUR LOCAL SERVER</h3>
+						<h3>or OUR CLOUD SERVER</h3>
+					</section>
+				</section>
+
+				<!--
+					Try other transition options:
+					- none
+					- fade
+					- slide
+					- convex
+					- concave
+					- zoom
+				-->
+
+				<!-- <section data-transition="convex">
+					<section>
+						<h3>BENEFITS</h3>
+						<p>
+							Bapak jadi tau record motor bapak problemnya apa dari alarm list <br/>
+							dari metering, ternjadi anomali dari motor klo rusak <br/>
+							metering power factor <br/>
+							monitor semua motor dalam 1 interface <br/>
+							remote control - motor switching <br/>
+							report one click away <br/>
+							local deployment - server
+							<a href="#/2/1">Visit basement</a>
+						</p>
+					</section>
+					<section>
+						<h3>Welcome!</h3>
+						<p>
+							<span id="typed2b"></span>
+							<a id="typed2b" href="#/2/2"></a>
+						</p>
+					</section>
+					<section>
+						<h3>There you go.</h3>
+						<div style="text-align:left;padding:1rem">
+							<pre id="typed3" style="display:inline" data-trim data-noescape></pre>
+						</div>
+					</section>
+				</section> -->
+
+				<section data-transition="slide-in">
+					<section>
+						<h3>That's it!</h3>
+						<h3>Thank You For Listening</h3>
+					</section>
+					<section>
+						<h5>
+							Visit SIMOCODE BOOTH<br/><br/>
+							Watch LIVE DEMO<br/><br/>
+							Consult with us for your unique requirement
+						</h5>
+					</section>
+
+				</section>
+
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+		<script src="js/typed.min.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				parallaxBackgroundImage: '/images/bg2.jpg',
+				parallaxBackgroundSize: '1920px 1200px',
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+
+			var typed2a, typed2b;
+			Reveal.addEventListener('slidechanged', function(e) {
+				// console.log(e.previousSlide, e.currentSlide, e.indexh, e.indexv);
+
+				if (e.indexh == 2 && e.indexv == 1) {
+					if (typed2a || typed2b) return;
+
+					setTimeout(function() {
+						typed2a = new Typed('#typed2a', {
+							strings: ["Monitoring", "Analyze Alarm", "Create Report", "Managing"],
+							typeSpeed: 50,
+							cursorChar: '',
+						});
+					}, 2000);
+
+					setTimeout(function() {
+						typed2b = new Typed('#typed2b', {
+							strings: ["Dig deeper"],
+							typeSpeed: 50,
+							cursorChar: '',
+						});
+					}, 4000);
+				}
+			});
+
+			// Typed.js
+			// var typed1 = new Typed('#typed1', {
+			// 	strings: ["Monitoring", "Analyze Alarm", "Create Report", "Managing"],
+			// 	typeSpeed: 30,
+			// 	backSpeed: 10,
+			// });
+
+			// var typed11 = new Typed('#typed11', {
+			// 	strings: ["SIMOCODE and SIRIUS"],
+			// 	typeSpeed: 30,
+			// 	backSpeed: 5,
+			// });
+
+			// var typed3 = new Typed('#typed3', {
+			// 	strings: ['npm install^1000\n `Installing components...` ^1000\n `Fetching from source...`'],
+			// 	typeSpeed: 40,
+			// 	backSpeed: 0,
+			// 	cursorChar: '_',
+			// 	loop: true,
+			// });
+
+			// Init devices
+			var devices = [
+				{ icon: 'simocode-3d.png' },
+				{ icon: 'simocode-3d.png' },
+				{ icon: 'simocode-3d.png' },
+				{ icon: 'simocode-3d.png' },
+				{ icon: 'simocode-3d.png' },
+				{ icon: 'simocode-3d.png' },
+				{ icon: 'simocode-3d.png' },
+				{ icon: 'soft-starter-3d.png' },
+				{ icon: 'soft-starter-3d.png' },
+				{ icon: 'soft-starter-3d.png' },
+				{ icon: 'soft-starter-3d.png' },
+				{ icon: 'soft-starter-3d.png' },
+				{ icon: 'soft-starter-3d.png' },
+				{ icon: 'soft-starter-3d.png' },
+				{ icon: 'soft-starter-3d.png' },
+				{ icon: 'soft-starter-3d.png' },
+				{ icon: 'soft-starter-3d.png' },
+				{ icon: 'simocode-3d.png' },
+				{ icon: 'simocode-3d.png' },
+				{ icon: 'simocode-3d.png' },
+				{ icon: 'simocode-3d.png' },
+				{ icon: 'simocode-3d.png' },
+				{ icon: 'simocode-3d.png' },
+				{ icon: 'soft-starter-3d.png' },
+				{ icon: 'soft-starter-3d.png' },
+				{ icon: 'soft-starter-3d.png' },
+				{ icon: 'soft-starter-3d.png' },
+				{ icon: 'soft-starter-3d.png' },
+				{ icon: 'soft-starter-3d.png' },
+				{ icon: 'soft-starter-3d.png' },
+				{ icon: 'soft-starter-3d.png' },
+				{ icon: 'soft-starter-3d.png' },
+				{ icon: 'soft-starter-3d.png' },
+				{ icon: 'soft-starter-3d.png' },
+				{ icon: 'soft-starter-3d.png' },
+				{ icon: 'soft-starter-3d.png' },
+				{ icon: 'soft-starter-3d.png' },
+				{ icon: 'soft-starter-3d.png' },
+				{ icon: 'soft-starter-3d.png' },
+				{ icon: 'soft-starter-3d.png' },
+				{ icon: 'simocode-3d.png' },
+				{ icon: 'soft-starter-3d.png' },
+				{ icon: 'soft-starter-3d.png' },
+				{ icon: 'soft-starter-3d.png' },
+				{ icon: 'soft-starter-3d.png' },
+				{ icon: 'soft-starter-3d.png' },
+				{ icon: 'soft-starter-3d.png' },
+				{ icon: 'soft-starter-3d.png' },
+				{ icon: 'simocode-3d.png' },
+				{ icon: 'soft-starter-3d.png' },
+				{ icon: 'soft-starter-3d.png' },
+				{ icon: 'soft-starter-3d.png' },
+				{ icon: 'soft-starter-3d.png' },
+				{ icon: 'soft-starter-3d.png' },
+				{ icon: 'simocode-3d.png' },
+				{ icon: 'simocode-3d.png' },
+				{ icon: 'simocode-3d.png' },
+				{ icon: 'simocode-3d.png' },
+				{ icon: 'simocode-3d.png' },
+				{ icon: 'soft-starter-3d.png' },
+				{ icon: 'soft-starter-3d.png' },
+				{ icon: 'soft-starter-3d.png' },
+				{ icon: 'soft-starter-3d.png' },
+				{ icon: 'soft-starter-3d.png' },
+				{ icon: 'soft-starter-3d.png' },
+				{ icon: 'soft-starter-3d.png' },
+				{ icon: 'soft-starter-3d.png' },
+				{ icon: 'simocode-3d.png' },
+				{ icon: 'simocode-3d.png' },
+				{ icon: 'simocode-3d.png' },
+				{ icon: 'simocode-3d.png' },
+				{ icon: 'simocode-3d.png' },
+				{ icon: 'simocode-3d.png' },
+				{ icon: 'soft-starter-3d.png' },
+				{ icon: 'soft-starter-3d.png' },
+				{ icon: 'soft-starter-3d.png' },
+				{ icon: 'soft-starter-3d.png' },
+				{ icon: 'soft-starter-3d.png' },
+				{ icon: 'simocode-3d.png' },
+				{ icon: 'simocode-3d.png' },
+				{ icon: 'simocode-3d.png' },
+				{ icon: 'simocode-3d.png' },
+				{ icon: 'simocode-3d.png' },
+				{ icon: 'simocode-3d.png' },
+				{ icon: 'soft-starter-3d.png' },
+				{ icon: 'soft-starter-3d.png' },
+				{ icon: 'soft-starter-3d.png' },
+				{ icon: 'soft-starter-3d.png' },
+				{ icon: 'soft-starter-3d.png' },
+				{ icon: 'soft-starter-3d.png' },
+				{ icon: 'soft-starter-3d.png' },
+				{ icon: 'soft-starter-3d.png' },
+				{ icon: 'soft-starter-3d.png' },
+				{ icon: 'soft-starter-3d.png' },
+				{ icon: 'simocode-3d.png' },
+				{ icon: 'simocode-3d.png' },
+				{ icon: 'simocode-3d.png' },
+				{ icon: 'simocode-3d.png' },
+				{ icon: 'simocode-3d.png' },
+				{ icon: 'simocode-3d.png' },
+				{ icon: 'simocode-3d.png' },
+				{ icon: 'simocode-3d.png' },
+				{ icon: 'simocode-3d.png' },
+				{ icon: 'simocode-3d.png' },
+				{ icon: 'simocode-3d.png' },
+				{ icon: 'simocode-3d.png' },
+				{ icon: 'simocode-3d.png' },
+				{ icon: 'simocode-3d.png' },
+				{ icon: 'simocode-3d.png' },
+				{ icon: 'simocode-3d.png' },
+				{ icon: 'simocode-3d.png' },
+				{ icon: 'simocode-3d.png' },
+				{ icon: 'simocode-3d.png' },
+				{ icon: 'simocode-3d.png' },
+				{ icon: 'simocode-3d.png' },
+				{ icon: 'simocode-3d.png' },
+				{ icon: 'simocode-3d.png' },
+				{ icon: 'simocode-3d.png' },
+				{ icon: 'soft-starter-3d.png' },
+				{ icon: 'soft-starter-3d.png' },
+				{ icon: 'simocode-3d.png' },
+				{ icon: 'simocode-3d.png' },
+				{ icon: 'simocode-3d.png' },
+				{ icon: 'simocode-3d.png' },
+				{ icon: 'simocode-3d.png' },
+				{ icon: 'simocode-3d.png' },
+				{ icon: 'simocode-3d.png' },
+				{ icon: 'simocode-3d.png' },
+				{ icon: 'simocode-3d.png' },
+				{ icon: 'simocode-3d.png' },
+				{ icon: 'simocode-3d.png' },
+				{ icon: 'simocode-3d.png' },
+				{ icon: 'simocode-3d.png' },
+				{ icon: 'soft-starter-3d.png' },
+				{ icon: 'soft-starter-3d.png' },
+				{ icon: 'simocode-3d.png' },
+				{ icon: 'simocode-3d.png' },
+				{ icon: 'simocode-3d.png' },
+				{ icon: 'simocode-3d.png' },
+				{ icon: 'simocode-3d.png' },
+			];
+
+			var svg = [];
+			var map = { lines: [], devices: [] };
+
+			var svgWidth = 1000;
+			var svgHeight = 500;
+
+			var size = 40;
+			var initY = 0;
+
+			var count = devices.length;
+			var gapItems = 50;
+			var gapRows = 50;
+
+			var perRow = 20;
+			var x1 = (0 - (perRow-1) / 2) * gapItems - gapItems/2;
+			var x2 = (perRow-1 - (perRow-1) / 2) * gapItems + gapItems/2;
+
+			var row = -1;
+			var y;
+			var rest;
+
+			svg.push('<svg width="'+svgWidth+'" height="'+svgHeight+'" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs">');
+			svg.push('<defs></defs>');
+			svg.push('<g transform="matrix(1, 0, 0, 1, '+(svgWidth/2)+', 0)">');
+
+			for (let i = 0; i < devices.length; i++) {
+				if (i % perRow === 0) {
+					row++;
+					rest = count - row * perRow;
+
+					y = initY + 100 + row*gapRows;
+					if (row <= 0) {
+						svg.push('<polyline points="'+[x1,y, x2,y].join()+'" stroke="#bbb" stroke-width="1" stroke-dasharray="5" fill="none"></polyline>');
+					} else {
+						svg.push('<polyline points="'+[x1,y-gapRows, x1,y, x2,y, x2,y-gapRows].join()+'" stroke="#bbb" stroke-width="1" stroke-dasharray="5" fill="none"></polyline>');
+					}
+				}
+
+				var x = (i - row*perRow - ((rest > perRow ? perRow : rest) - 1) / 2) * gapItems;
+
+				svg.push('<image xlink:href="/images/'+(devices[i].icon)+'" width="'+size+'" height="'+size+'" x="'+(x-size/2)+'" y="'+(y-size/2)+'"></image>');
+
+				// svg.push('<rect width="36" height="20" fill="white" x="'+(x-size/2+7)+'" y="'+(y-size/2-18)+'" rx="3" ry="3" stroke="#dddddd" stroke-width="1"></rect>');
+
+				// svg.push('<circle fill="#2c7be5" cx="'+(x-size/2+17)+'" cy="'+(y-size/2-8)+'" r="3"/>');
+
+				// svg.push('<text font-family="Cerebri Sans, Arial, sans-serif" x="'+(x-size/2+22)+'" y="'+(y-size/2-20)+'" font-size="12"> <tspan dy="15.600000000000001" x="'+(x-size/2+22)+'"> {{ device.countActiveStatus | number }} </tspan> </text>');
+
+			}
+
+			svg.push( ' </g> </svg> ' );
+
+			document.getElementById("map").innerHTML = svg.join('');
+
+		</script>
+
+		<!--
+			Try other fragment options:
+			- grow
+			- shrink
+			- fade-out
+			- fade-up
+			- fade-in-then-out
+			- fade-in-then-semi-out
+			- highlight-current-blue
+			- highlight-red
+			- highlight-green
+			- highlight-blue
+		-->
+
+	</body>
+</html>
